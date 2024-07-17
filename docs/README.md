@@ -1,6 +1,6 @@
-# AI
+# 第一周
 
-## 学习资源
+## 一、学习资源
 
 * Python <https://www.python.org/>
 * Anaconda <https://www.anaconda.com/>
@@ -10,12 +10,14 @@
 * huggingface <http://www.huggingface.co>
 * arxiv.org <https://arxiv.org/>
 
-## 认识神经网络
+## 二、认识神经网络
 
 * <https://caigk.github.io/convnetjs/demo/classify2d.html>
 * <https://caigk.github.io/playground>
 
-## 源码
+## 三、自学视频课程
+
+## 四、源码
 
 * [deep-learning-from-scratch](https://github.com/oreilly-japan/deep-learning-from-scratch)
 * [deep-learning-from-scratch-2](https://github.com/oreilly-japan/deep-learning-from-scratch-2)
@@ -23,7 +25,7 @@
 * [deep-learning-from-scratch-5](https://github.com/oreilly-japan/deep-learning-from-scratch-5)
 * [deep-learning-with-python-notebooks](https://github.com/caigk/deep-learning-with-python-notebooks)
 
-## 安装python环境
+## 五、安装python环境
 
 请先安装*Anaconda* https://www.anaconda.com/
 
@@ -38,9 +40,14 @@ conda activate myenv
 
 #安装jupyter
 conda install jupyterlab --yes
+
+#安装AI环境
 conda install pytorch torchvision -c pytorch --yes
 pip install ultralytics -i https://pypi.tuna.tsinghua.edu.cn/simple
 pip install openai-clip -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+#安装标注软件
+conda install labelme
 
 #克隆 pytorch/tutorial.git
 git clone git@github.com:pytorch/tutorials.git
@@ -59,14 +66,28 @@ yolo yolov8s-world.pt source=/Users/caigangkun/Downloads/tls-talk640.jpg imgsz=6
 
 ```
 
-## 安装IDE
+## 六、安装IDE
 
 * [VS CODE](https://code.visualstudio.com/)
 * 安装扩展：ms-python.python，ms-python.debugpy
 
-## 练习
+## 七、练习
 
+1. 打开 deep-learning-from-scratch/notebooks/ch01.ipynb ...练习
+1. 打开 deep-learning-with-python-notebooks/chapter02_mathematical-building-blocks.ipynb ...练习
+1. 练习 yolo world
+1. 标注图片 labelme
 
-## 加微信
+## 八、测评
 
-![weixin](images/weixin.jpg)
+**使用yolov8模型对图像目标检测**
+
+1. 自己整理图片100张
+2. 使用labelme对图片进行标注
+3. 将标注的图片整理为数据集（80张训练、20张测试）
+4. 使用数据集对yolov8m进行训练
+5. 使用yolo模型对目标检测
+
+<!-- ## 加微信
+
+![weixin](images/weixin.jpg) -->
