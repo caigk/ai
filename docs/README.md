@@ -23,7 +23,7 @@
 * [deep-learning-from-scratch-5](https://github.com/oreilly-japan/deep-learning-from-scratch-5)
 * [deep-learning-with-python-notebooks](https://github.com/caigk/deep-learning-with-python-notebooks)
 
-## 安装环境
+## 安装python环境
 
 请先安装*Anaconda* https://www.anaconda.com/
 
@@ -31,7 +31,7 @@
 * [yolo world](https://docs.ultralytics.com/models/yolo-world/)
 * [yolov8s-world.pt](https://github.com/ultralytics/assets/releases/download/v8.2.0/yolov8s-world.pt)
 
-```sh
+```bash
 #创建并激活环境
 conda create -n myenv python=3.11 --yes
 conda activate myenv
@@ -58,6 +58,14 @@ yolo yolov8s-world.pt source=/Users/caigangkun/Downloads/tls-talk640.jpg imgsz=6
 
 
 ```
+
+## 安装IDE
+
+* [VS CODE](https://code.visualstudio.com/)
+* 安装扩展：ms-python.python，ms-python.debugpy
+
+## 练习
+
 
 ## 加微信
 
