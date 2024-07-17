@@ -76,6 +76,7 @@ yolo yolov8s-world.pt source=/Users/caigangkun/Downloads/tls-talk640.jpg imgsz=6
 1. 打开 deep-learning-from-scratch/notebooks/ch01.ipynb ...练习
 1. 打开 deep-learning-with-python-notebooks/chapter02_mathematical-building-blocks.ipynb ...练习
 1. 练习 yolo world
+1. 练习 yolov8
 1. 标注图片 labelme
 
 ## 八、测评
