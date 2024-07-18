@@ -75,7 +75,7 @@ git clone https://github.com/caigk/deep-learning-with-python-notebooks.git
 
 #使用yolo world 模型目标检测
 #wget https://github.com/ultralytics/assets/releases/download/v8.2.0/yolov8s-world.pt
-yolo yolov8s-world.pt source=/Users/caigangkun/Downloads/tls-talk640.jpg imgsz=640
+yolo predict model=path/to/yolov8s-world.pt source=path/to/tls-talk640.jpg imgsz=640
 
 ## Install all packages together using conda
 #conda install -c pytorch -c nvidia -c conda-forge pytorch torchvision pytorch-cuda=11.8 ultralytics
