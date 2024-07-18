@@ -58,6 +58,8 @@ conda activate myenv
 
 #安装jupyter
 conda install jupyterlab --yes
+#启动
+#jupyter lab
 
 #安装AI环境
 conda install pytorch torchvision -c pytorch --yes
