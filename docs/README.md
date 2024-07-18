@@ -4,6 +4,7 @@
 
 * Python <https://www.python.org/>
 * Anaconda <https://www.anaconda.com/>
+* Git <https://git-scm.com/downloads>
 * Github <https://github.com/>
 * Kaggle <https://www.kaggle.com/>
 * Colab  <https://colab.research.google.com/>
