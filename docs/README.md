@@ -68,6 +68,8 @@ conda install labelme
 
 #克隆 pytorch/tutorial.git
 git clone git@github.com:pytorch/tutorials.git
+#或 下面命令
+#pip install labelme -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 #克隆 练习源码
 git clone https://github.com/oreilly-japan/deep-learning-from-scratch.git
