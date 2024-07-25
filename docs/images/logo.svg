@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="466px" height="153px" viewBox="0 0 466 153" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>logo@1x</title>
+    <g id="logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(25.000000, 19.000000)" id="形状" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M42,66 L42,49.3333333 C42,44.7309604 45.8055796,41 50.5,41 C55.1944204,41 59,44.7309604 59,49.3333333 L59,66 M42,58 L59,58 M71,41 L71,66" stroke="#FF7500" stroke-width="10.6666667"></path>
+            <path d="M102,105 L78,105 L78,81 M78,105 L108,75 M21,36.024 L0,24.024 L12,3 M0,24.024 L40.98,12.804 M6,75 L30,69 L36,93 M30,69 L9,105 M108,9 L105,33 L81,30 M105,33 L78,0" stroke="#21A675" stroke-width="10.666667"></path>
+        </g>
+        <text id="AI-ML-DL-LLM" font-family="PingFangSC-Semibold, PingFang SC" font-size="18" font-weight="500" fill="#50616D">
+            <tspan x="319.539" y="124">AI ML DL LLM</tspan>
+        </text>
+        <text id="人工智能培训" font-family="STHeitiSC-Medium, Heiti SC" font-size="48" font-weight="bold" fill="#50616D">
+            <tspan x="155" y="89">人工智能培训</tspan>
+        </text>
+    </g>
+</svg>
