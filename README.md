@@ -1,5 +1,7 @@
 # AI 培训文档
 
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/caigk/ai)
+
 * [docsify](https://docsify.js.org)
 
 ## 
