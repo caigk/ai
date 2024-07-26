@@ -1,6 +1,6 @@
 # AI 培训文档
 
-![Website](https://img.shields.io/website?url=https%3A%2F%2Fai.caigk.com)
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Fai.caigk.com)](//ai.caigk.com)
 ![GitHub last commit](https://img.shields.io/github/last-commit/caigk/ai)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/caigk/ai)
 
