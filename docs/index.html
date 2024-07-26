@@ -12,16 +12,16 @@
   <link rel="stylesheet" href="//unpkg.com/docsify@4/lib/themes/vue.css">
   <!-- Custom theme styles -->
   <style>
-    .sidebar {
+    /* .sidebar {
+      padding-top: 0;
+    } */
+
+    .content {
       padding-top: 0;
     }
-    .content {
-      padding-top: 5pt;
-    }
+
     :root {
-      --base-background-color : #00e079;
-      --sidebar-background    : #00e079;
-      --theme-color           : #057748;
+      --theme-color: #057748;
     }
   </style>
 </head>
@@ -36,15 +36,21 @@
       //hideSidebar: true,
       //loadNavbar: true,
       loadSidebar: true,
+      autoHeader: true,
       subMaxLevel: 2,
       name: 'AI/DL/LLM培训',
       //repo: 'caigk/ai'
       homepage: 'index.md',
-      logo: 'images/logo.svg'
+      logo: 'images/logo.svg',
+      search: {
+        placeholder: '搜索',
+      }
+      
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//unpkg.com/docsify@4"></script>
+  <script src="//unpkg.com/docsify@4/lib/plugins/search.min.js"></script>
 </body>
 
 </html>
