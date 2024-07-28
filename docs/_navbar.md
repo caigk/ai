@@ -1,17 +1,7 @@
 
 <!-- _navbar.md  -->
 
-* [首页](/)
-  
-* 基础理论
-
-  * [1.python、pytorch 开发实践](/p11.md)
-  * [2.成果检测](/p12.md)
-  * [3.自然语言处理NLP](/p13.md)
-
-* 环境搭瑾
-  
-* 模型微调
-  
-* 应用开发
-  
+* cheatsheet
+  * [python1](images/python-cheat-sheet1.jpg ':ignore')
+  * [python2](images/python-cheat-sheet2.jpg ':ignore')
+  * [python doc](https://docs.python.org/zh-cn/3/ ':ignore')

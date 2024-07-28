@@ -10,6 +10,7 @@
 * Colab  <https://colab.research.google.com/>
 * huggingface <http://www.huggingface.co>
 * arxiv.org <https://arxiv.org/>
+* 3blue1brown.com <https://www.3blue1brown.com/>
 
 ## 二、课程表
 
