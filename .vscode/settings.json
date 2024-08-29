@@ -1,0 +1,15 @@
+{
+    "prompt-runner.defaultModel":"llama3.1",
+    "prompt-runner.defaultProvider":"ollama",
+    "prompt-runner.providers":[
+        {
+          "name": "ollama",
+          "type": "ollama",
+          "base_url": "http://ai.baitech.com.cn:9901/v1",
+          "api_key": "sk-ollama",
+          "models": [
+            "llama3.1"
+          ]
+        }
+      ]
+}
