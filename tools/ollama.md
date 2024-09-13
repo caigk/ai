@@ -46,3 +46,20 @@ curl http://ai.baitech.com.cn:9901/api/chat -d '{
 curl http://ai.baitech.com.cn:9901/api/tags
 
 ```
+
+## 手工安装
+
+```bash
+
+wget https://ollama.com/install.sh -o install.sh
+wget https://sourceforge.net/projects/ollama.mirror/files/v0.3.9/ollama-linux-amd64.tgz/download -o ollama-linux-amd64.tgz
+wget https://sourceforge.net/projects/ollama.mirror/files/v0.3.9/ollama-linux-amd64-rocm.tgz/download -o ollama-linux-amd64-rocm.tgz
+
+vi install.sh
+
+sh install.sh
+
+#sudo vi /etc/systemd/system/ollama.service
+journalctl -u ollama -n 20
+
+```
