@@ -3,15 +3,15 @@
 
 ## 一、参考资源
 
+* [HF transformers](https://github.com/huggingface/transformers)
+* [llama-recipes](https://github.com/Meta-Llama/llama-recipes)sss
 * [DB-GPT 框架](https://github.com/eosphoros-ai/DB-GPT)
 * [Text2SQL 微调](https://github.com/eosphoros-ai/DB-GPT-Hub)
 * [DB-GPT-WEB](https://github.com/eosphoros-ai/DB-GPT-Web)
 * [Awesome-Text2SQL](https://github.com/eosphoros-ai/Awesome-Text2SQL)
 * [第三方评估GPT-4](https://www.numbersstation.ai/post/nsql-llama-2-7b)
 * [训练的权重文件](https://huggingface.co/eosphoros)
-
 * [xlang-ai](https://github.com/xlang-ai)
-
 * [llama-cpp-python](https://llama-cpp-python.readthedocs.io/en/latest/)
 
 **数据集**
@@ -28,6 +28,8 @@
 ## 二、transformers
 
 ```bash
+git clone git@github.com:huggingface/transformers.git
+
 
 python src/transformers/models/llama/convert_llama_weights_to_hf.py \
    --input_dir /home/ubuntu/caigk/Meta-Llama-3-8B-Instruct --model_size 7B --output_dir /output/path
@@ -154,9 +156,6 @@ cd llama2-finetune
 
 conda create -p .conda python=3.11
 conda activate ./.conda
-
-
-
 
 
 ```
