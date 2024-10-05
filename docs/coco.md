@@ -1,6 +1,6 @@
 # COCO数据集
 
-## COCO数据集的简介
+## 一、COCO数据集的简介
 
 * 官网地址：<http://cocodataset.org>
 
@@ -101,3 +101,49 @@ COCO数据集分两部分发布，前部分于2014年发布，后部分于2015�
 
 * test2017：<http://images.cocodataset.org/zips/test2017.zip>
 * test2017 info：<http://images.cocodataset.org/annotations/image_info_test2017.zip>
+
+## 二、YOLO中使用
+
+### 1.下载数据集
+
+```bash
+
+pip install modelscope -i http://mirrors.aliyun.com/pypi/simple/
+
+modelscope download --dataset=PAI/COCO2017  --local_dir=../datasets/coco2017/
+
+```
+
+### 2.修改yolo数据集文件
+
+查看路径：
+
+```bash
+#查看数据集路径，缺省：../datasets
+yolo settings
+```
+
+国内网格原因，需提前下载coco2017labels.zip' <https://github.com/ultralytics/assets/releases>
+修订下载地址为本地：
+
+```bash
+#file:data/scripts/get_coco.sh
+
+
+# Download/unzip labels
+d='../datasets' # unzip directory
+url=file://Volumes/T7aiDada/yolo-assets/
+
+# ...
+
+# Download/unzip images
+d='../datasets/coco/images' # unzip directory
+url=file://Volumes/T7ai/work-cv/datasets_download/coco2017/
+
+```
+
+执行命令处理：
+
+```bash
+bash data/scripts/get_coco.sh --train --val --test --segments
+```

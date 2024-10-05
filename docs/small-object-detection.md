@@ -5,10 +5,12 @@
 ## 一、学习资源
 
 [![Static Badge](https://img.shields.io/badge/github-yolov5-blue?logo=github)](https://github.com/ultralytics/yolov5)
+[![Static Badge](https://img.shields.io/badge/github-albumentations-blue?logo=github)](https://github.com/albumentations-team/albumentations)
 
 * [YOLOv5改进（一）轻量化YOLOv5s模型](https://blog.csdn.net/qq_44231797/article/details/137443386)
 * [YOLOv5改进（二）目标检测优化点（添加小目标头检测）](https://blog.csdn.net/qq_44231797/article/details/137729312) 💯
 * [YOLO算法模型yaml文件史上最详细解析与教程](https://yolov5.blog.csdn.net/article/details/124695537)
+* [数据增强albumentations](https://albumentations.ai/) [demo](https://demo.albumentations.ai/)
 
 **📃论文**
 

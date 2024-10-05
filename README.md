@@ -20,3 +20,8 @@ npm i docsify-cli -g --registry https://mirrors.cloud.tencent.com/npm/
 docsify serve docs
 
 ```
+
+## 待处理
+
+[ ] <https://ipython.org/>
+
