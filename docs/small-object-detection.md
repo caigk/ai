@@ -6,6 +6,8 @@
 
 [![Static Badge](https://img.shields.io/badge/github-yolov5-blue?logo=github)](https://github.com/ultralytics/yolov5)
 [![Static Badge](https://img.shields.io/badge/github-albumentations-blue?logo=github)](https://github.com/albumentations-team/albumentations)
+[![Static Badge](https://img.shields.io/badge/github-pytorch-blue?logo=github)](https://github.com/pytorch/pytorch)
+[![Static Badge](https://img.shields.io/badge/github-cource-blue?logo=bilibili)](https://www.bilibili.com/video/BV1U8411n7ny)
 
 * [YOLOv5改进（一）轻量化YOLOv5s模型](https://blog.csdn.net/qq_44231797/article/details/137443386)
 * [YOLOv5改进（二）目标检测优化点（添加小目标头检测）](https://blog.csdn.net/qq_44231797/article/details/137729312) 💯
@@ -23,6 +25,18 @@
 * 📃 [TPH-YOLOv5: Improved YOLOv5 Based on Transformer Prediction Head for Object Detection on Drone-captured Scenarios](papers/sod/arxiv.org.pdf.2108.11539v1.pdf ':ignore') [![Static Badge](https://img.shields.io/badge/arXiv-202108-gree?logo=arxiv)](https://arxiv.org/pdf/2108.11539) [![Static Badge](https://img.shields.io/badge/csdn-%E8%A7%A3%E8%AF%BB-8A2BE2)](https://blog.csdn.net/hai0915/article/details/126971444) 💯
 * 📃 [Small-Object Detection in Remote Sensing Images with End-to-End Edge-Enhanced GAN and Object Detector Network](papers/sod/arxiv.org.pdf.2003.09085v5.pdf ':ignore') [![Static Badge](https://img.shields.io/badge/arXiv-202304-gree?logo=arxiv)](https://arxiv.org/pdf/2003.09085) [![Static Badge](https://img.shields.io/badge/zhihu-%E8%A7%A3%E8%AF%BB-8A2BE2)](https://zhuanlan.zhihu.com/p/348039282) 💯
 * 📃 [Augmentation for small object detection](papers/sod/arxiv.org.pdf.1902.07296v1.pdf ':ignore') [![Static Badge](https://img.shields.io/badge/arXiv-201902-gree?logo=arxiv)](https://arxiv.org/pdf/1902.07296) [![Static Badge](https://img.shields.io/badge/csdn-%E8%A7%A3%E8%AF%BB-8A2BE2)](https://blog.csdn.net/qq_38109282/article/details/120475623)
+
+**经典网络架构**
+
+* **Alexnet:** Advances in Neural Information Processing Systems 25 (NIPS 2012) 卷积核大  [![Static Badge](https://img.shields.io/badge/arXiv-2012-gree?logo=arxiv)](https://papers.nips.cc/paper_files/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html)
+* **Vgg:** 小卷积核 [![Static Badge](https://img.shields.io/badge/arXiv-201409-gree?logo=arxiv)](https://arxiv.org/pdf/1409.1556)
+* **Resnet:** 解决深度问题  [![Static Badge](https://img.shields.io/badge/arXiv-201512-gree?logo=arxiv)](https://arxiv.org/pdf/1512.03385)
+* **U-net:** U-Net: Convolutional Networks for Biomedical Image Segmentation  编码解码+特征融合  [![Static Badge](https://img.shields.io/badge/arXiv-201505-gree?logo=arxiv)](https://arxiv.org/pdf/1505.04597)  [![Static Badge](https://img.shields.io/badge/github-pytorch_unet-blue?logo=github)](https://github.com/milesial/Pytorch-UNet)
+* **U-net ++:** A Nested U-Net Architecture for Medical Image Segmentation  dense特征融合  [![Static Badge](https://img.shields.io/badge/arXiv-201807-gree?logo=arxiv)](https://arxiv.org/pdf/1807.10165)  [![Static Badge](https://img.shields.io/badge/github-unet++-blue?logo=github)](https://github.com/MrGiovanni/UNetPlusPlus)
+* **Inception:** Rethinking the Inception Architecture for Computer Vision [![Static Badge](https://img.shields.io/badge/arXiv-201512-gree?logo=arxiv)](https://arxiv.org/pdf/1512.00567)
+* **SqueezeNet:** ALEXNET-LEVEL ACCURACY WITH 50X FEWER PARAMETERS AND <0.5MB MODEL SIZE  [![Static Badge](https://img.shields.io/badge/arXiv-201602-gree?logo=arxiv)](https://arxiv.org/pdf/1602.07360)
+* **DenseNet:** Densely Connected Convolutional Networks  [![Static Badge](https://img.shields.io/badge/arXiv-201608-gree?logo=arxiv)](https://arxiv.org/pdf/1608.06993)  [![Static Badge](https://img.shields.io/badge/github-DenseNet-blue?logo=github)](https://github.com/liuzhuang13/DenseNet)
+
 
 ## 二、背景
 
