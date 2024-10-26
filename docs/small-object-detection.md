@@ -8,6 +8,9 @@
 [![Static Badge](https://img.shields.io/badge/github-albumentations-blue?logo=github)](https://github.com/albumentations-team/albumentations)
 [![Static Badge](https://img.shields.io/badge/github-pytorch-blue?logo=github)](https://github.com/pytorch/pytorch)
 [![Static Badge](https://img.shields.io/badge/github-cource-blue?logo=bilibili)](https://www.bilibili.com/video/BV1U8411n7ny)
+[![Static Badge](https://img.shields.io/badge/pytorch-hub-blue?logo=pytorch)](https://pytorch.org/hub/)
+[![Static Badge](https://img.shields.io/badge/github-sahi-blue?logo=github)](https://github.com/obss/sahi)
+
 
 * [YOLOv5改进（一）轻量化YOLOv5s模型](https://blog.csdn.net/qq_44231797/article/details/137443386)
 * [YOLOv5改进（二）目标检测优化点（添加小目标头检测）](https://blog.csdn.net/qq_44231797/article/details/137729312) 💯
